@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    
+}
+html { scroll-behavior: smooth; }
+/*NAVBAR*/
+
+nav{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    gap: 140px;
+    background-color:#272626;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+ul{
+    Color: #ffff;
+   
+  
+    
+}
+ul:hover{
+    opacity: 80%;
+}
+
+/*Elementos da parte superior*/
+
+.InstrutorAquiTitulo{
+    margin-top: 3%;
+}
+
+.TopTopics{
+    display: flex;
+    gap: 100px;
+}
+
+.TopTopics img{
+    width: 100%;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.TopT{
+    display: flex;
+    background-image: url("https://i.ibb.co/yFMswFDR/Top-image-Driven.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 130px;
+    
+}
+
+.buttonConheça:hover{
+    opacity: 80%;
+}
+
+/*Elementos do meio da página*/
+.Tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: Center;
+}
+
+.InstrutoresA{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Moto{
+    display: flex;
+    margin-left: -70%;
+}
+
+
+.CatAI{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 230px;
+    gap: 190px;
+    width: 100%;
+}
+
+
+.InstrutoresB{
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    gap: 190px;
+}
+
+.InstrutoresB2{
+    display: flex;
+    position: absolute;
+    justify-self: center;
+    align-items: center;
+    margin-top: 500px;
+    gap: 190px;
+}
+
+
+
+
+.testee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    
+    
+}
+
+.carroint{
+    margin-left: -70%;
+}
+
+
+
